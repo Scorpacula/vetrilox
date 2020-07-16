@@ -87,6 +87,37 @@
 </table>
 </details><br>
 
+<h3><b>Tags</b></h3>
+<details>
+  <summary>Tag Commands (Click me)</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Command</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Tag-setup</td>
+<td style="text-align:left">Sets up tags in your server</td>
+</tr>
+<tr>
+<td style="text-align:left">Tag-create</td>
+<td style="text-align:left">Creates a tag</td>
+</tr>
+<tr>
+<td style="text-align:left">Tag-delete</td>
+<td style="text-align:left">Deletes a tag</td>
+</tr>
+<tr>
+<td style="text-align:left">Tag</td>
+<td style="text-align:left">Displays a tag</td>
+</tr>
+</tbody>
+</table>
+</details><br>
+
 <h3><b>Moderation</b></h3>
 <details>
   <summary>Mod Commands (Click me)</summary>
@@ -130,60 +161,6 @@
 </table>
 </details>
 
-<h3><b>NSFW</b></h3>
-<details>
-  <summary>NSFW Commands (Click me)</summary>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Command</th>
-<th style="text-align:left">Function</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">4k</td>
-
-</tr>
-<tr>
-<td style="text-align:left">Hentai</td>
-
-</tr>
-<tr>
-<td style="text-align:left">Anal</td>
-
-</tr>
-<tr>
-<td style="text-align:left">Ass</td>
-</tr>
-<tr>
-<td style="text-align:left">NGif</td>
-</tr>
-<tr>
-<td style="text-align:left">Thigh</td>
-</tr>
-<tr>
-<td style="text-align:left">Pussy</td>
-</tr>
-<tr>
-<td style="text-align:left">Holo</td>
-</tr>
-<tr>
-<td style="text-align:left">Gonewild</td>
-</tr>
-<tr>
-<td style="text-align:left">HThigh</td>
-</tr>
-<tr>
-<td style="text-align:left">HAss</td>
-</tr>
-<tr>
-<td style="text-align:left">HAnal</td>
-</tr>
-
-</tbody>
-</table>
-</details>
 
 <h3><b>Fun</b></h3>
 <details>
@@ -250,9 +227,52 @@
 <tbody>
 <tr>
 <td style="text-align:left">Cat</td>
-<td style="text-align:left">Sends you a random picture of a cat</td>
 </tr>
-
+<tr>
+<td style="text-align:left">Rabbit</td>
+</tr>
+<tr>
+<td style="text-align:left">Aww</td>
+</tr>
+<tr>
+<td style="text-align:left">Budgie</td>
+</tr>
+<tr>
+<td style="text-align:left">Chinchilla</td>
+</tr>
+<tr>
+<td style="text-align:left">Fox</td>
+</tr>
+<tr>
+<td style="text-align:left">Mice</td>
+</tr>
+<tr>
+<td style="text-align:left">Rat</td>
+</tr>
+<tr>
+<td style="text-align:left">Wolf</td>
+</tr>
+<tr>
+<td style="text-align:left">Guitar</td>
+</tr>
+<tr>
+<td style="text-align:left">Bass</td>
+</tr>
+<tr>
+<td style="text-align:left">Drums</td>
+</tr>
+<tr>
+<td style="text-align:left">Piano</td>
+</tr>
+<tr>
+<td style="text-align:left">Mustang</td>
+</tr>
+<tr>
+<td style="text-align:left">Cayman</td>
+</tr>
+<tr>
+<td style="text-align:left">Meme</td>
+</tr>
 </tbody>
 </table>
 </details>
@@ -273,6 +293,7 @@
 </tr>
 <tr>
 <td style="text-align:left">Prefix</td>
+  <td style="text-align:left">Shows and Changes the bot prefix</td>
 </tr>
 
 </tbody>
@@ -285,14 +306,14 @@
 
 <hr>
 <h4>
---Stats--
-Servers: 16
-Channels: 973
-Users: 31059
----------
-  
-Are these the right features for your server? Of course they are.
-Want to help increase those stats?
-Hit the Add Bot button above to start your journey.... with Vetrilox!  
-Developed by Scorprian#2161  
+--Stats--<br>
+Servers: 45<br>
+Channels: 1090<br>
+Users: 31701<br>
+---------<br>
+  <br>
+Are these the right features for your server? Of course they are.<br>
+Want to help increase those stats?<br>
+Hit the Add Bot button above to start your journey.... with Vetrilox!  <br>
+Developed by Scorprian#2161  <br>
 </h4>
