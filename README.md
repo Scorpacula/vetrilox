@@ -161,7 +161,7 @@
 </table>
 </details>
 
-
+<br>
 <h3><b>Fun</b></h3>
 <details>
   <summary>Fun Commands (Click me)</summary>
