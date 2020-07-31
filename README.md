@@ -326,15 +326,9 @@
 
 
 
-
+<br>
 
 <hr>
-<h4>
---Stats--<br>
-Servers: 45<br>
-Channels: 1090<br>
-Users: 31701<br>
----------<br>
   <br>
 Are these the right features for your server? Of course they are.<br>
 Want to help increase those stats?<br>
