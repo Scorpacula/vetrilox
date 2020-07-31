@@ -8,6 +8,30 @@
 </nav>
 <hr>
 <h1><b>Features</b></h1>
+
+<h3><b>Configuration</b></h3>
+<details>
+  <summary>Config Commands (Click me)</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Command</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Prefix</td>
+  <td style="text-align:left">Shows and Changes the bot prefix</td>
+</tr>
+<tr>
+<td style="text-align:left">SetSuggestionsChannel</td>
+  <td style="text-align:left">Sets the servers suggestions channel, used by the bots suggest command</td>
+</tr>
+
+</tbody>
+</table>
+</details>
 <h3>Information</h3>
 <details>
   <summary>Information Commands (Click me)</summary>
