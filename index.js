@@ -29,10 +29,22 @@ const request = require("request");
 var JSONdb = require('simple-json-db');
 const qrcode = require('qrcode')
 const tempy = require('tempy')
+const BOATS = require('boats.js');
+const Boats = new BOATS('jA8laxRvCra8B234h1CiFaOEj4tTGtL0jtLxAwvg1pOwqF7n0sKPgsE2Id5nVAdRNCmROmjKj00SFvKEf10KMdQS9kAAwX10QNFF4yKtKzTdoEWV596KZH5jfHTO7A36vxSdF45kU3PVwrJrzmpy2drWV4i');
+var TinyURL = require('tinyurl');
+const BFDAPI = require("bfdapi.js");
+const bfd = new BFDAPI("492476933808979979","eae68ccd11597458d11fb43c9572049490977987c07fac25b1971bfefec463784157532cd5d596f5683d043ed88c6f809858cc7516f00e2723efe33a1020dde6");
+const axios = require('axios')
 
 
 	client.on('ready', () => {
-	 console.log('Logged in as ' + client.user.tag)
+	 console.log('Logged in as ' + client.user.tag);
+	 bfd.postServerCount(client.guilds.cache.size).then((res) => console.log(res));
+	 Boats.postStats(client.guilds.cache.size, '492476933808979979').then(() => {
+    console.log('Successfully updated server count.');
+}).catch((err) => {
+    console.error(err);
+});
 });
 
 
@@ -1689,4 +1701,4 @@ message.channel.send(reminderset)
 
 
 
-client.login(TOKEN);
+client.login('NDkyNDc2OTMzODA4OTc5OTc5.Xw_OWQ.lBJCjqlwDvYS3-t6ze-Kxcyp-RI');
