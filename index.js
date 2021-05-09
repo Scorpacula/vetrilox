@@ -12,6 +12,7 @@ const oneLinerJoke = require('one-liner-joke');
 var JSONdb = require('simple-json-db');
 const qrcode = require('qrcode')
 const prettyMS = require('pretty-ms')
+const config = require('./config.json')
 const tempy = require('tempy')
 var TinyURL = require('tinyurl');
 const { exec } = require('child_process');
@@ -26,7 +27,7 @@ const regex = new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-z
 });
 
 
-client.login('NDkyNDc2OTMzODA4OTc5OTc5.W6Qs4g.GUXp44HynLDFq4tXfQXy4yi_va0');
+client.login(config.token);
 client.on('guildMemberAdd', member => {
     const db = new JSONdb(`./Servers/${member.guild.id}.sqlite`)
     const channel = db.get('welcomechannel')
