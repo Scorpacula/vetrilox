@@ -143,7 +143,7 @@ client.on('guildCreate',  guild => {
     setTimeout(() => {
         const push = new JSONdb(`./Servers/${guild.id}.sqlite`)
 
-	  push.set(`prefix`, 'v!')
+	  push.set(`prefix`, config.prefix)
       push.set(`autorole`, [])
       push.set(`disabled`, [])
     }, 1000)
