@@ -206,7 +206,7 @@ client.on('guildDelete', guild => {
 .setFooter('Vetrilox', client.user.displayAvatarURL())
       const db = new JSONdb(`./Servers/${message.guild.id}.sqlite`)
 
-	  const prefix = db.get(`prefix`) === undefined ? 'v!' db.get('prefix')
+	  const prefix = db.get(`prefix`) === undefined ? config.prefix : db.get('prefix')
       
       const userdb = new JSONdb(`./Users/${message.author.id}.sqlite`)
 
